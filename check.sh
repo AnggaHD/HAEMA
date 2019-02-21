@@ -45,7 +45,7 @@ then
 printf "${merah}[DIE]${NC} $key\n"
 else
 printf "${ijo}[LIVE]${NC} $key [$cek]\n"
-echo "$key : $cek" >> hmalicense.txt
+echo "$key : $cek" >> result.txt
 fi
 }
 for key in $(cat $klist)
